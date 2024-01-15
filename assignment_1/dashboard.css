@@ -1,0 +1,12 @@
+.paragraph-style {
+    text-align: center;
+    margin-left: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: green
+}
+
+#paragraph-id-style {
+    color: blue;
+    text-align: left;
+}
