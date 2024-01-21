@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>CSS Box Model Design</title>
+        <link rel="stylesheet" href>
+        <style>      
+            .outer-box{
+                width: 260px;
+                 height: 150px;
+                 padding: 20px;
+                 background-color:lightcoral;
+                 margin:auto
+
+            }
+            .border-box{
+                width: 230px;
+                 height: 120px;
+                 padding: 20px;
+                 background-color:paleturquoise;
+
+            }
+             .padding-box{
+                width: 210px;
+                 height: 110px;
+                 padding: 10px;
+                 background-color:palegreen;
+            }
+            .content-box{
+                 width: 200px;
+                 height: 100px;
+                 background-color: skyblue;
+                 padding: 10px;
+                   }
+           
+        </style>
+    </head>
+
+    <body>
+        <h3 style="text-align: center;">CSS Nested Box</h3>
+        <div class="outer-box">
+            <div class="border-box">
+                <div class="padding-box">
+                    <div class="content-box" style="box-sizing: border-box">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
