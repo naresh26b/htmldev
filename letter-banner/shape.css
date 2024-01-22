@@ -1,0 +1,14 @@
+.circle{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    display:inline-block;
+    font-size: 2em;
+    background-color: green;
+    /* Not sure why line height is required when width and height defined to fit the text */
+    line-height: 100px;
+    color: white;
+    font-family: Arial,sans-serif;
+}
+
