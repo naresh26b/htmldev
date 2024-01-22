@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form>
+        <h3 style="text-align: center;">Register</h3>
+        <ul>
+            <li>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="Enter your first name">
+            </li>
+            <li>
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="Enter your last name">
+            </li>
+            <li>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="Create your password">
+            </li>
+            <li>
+                <label for="Age">Age</label>
+                <input type="number" id="age" placeholder="Enter your age">
+            </li>
+            <li>
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob">
+            </li>
+            <li>
+                <label for="gender">Gender</label>
+                <input type="radio" class="radio-button" name="gender" id="gender"> Male
+                <input type="radio" class="radio-button" name="gender" id="Female"> Female
+                <input type="radio" class="radio-button" name="gender" id="other"> Others
+            </li>
+            <li>
+                <label for="about">About</label>
+                <textarea id="about" style="width: 85%; height: 80px;" placeholder="tell us about yourself"></textarea>
+            </li>
+            <li>
+                <button type="submit"
+                    style="width: 85%; height: 40px;background-color: cornflowerblue;border-radius: 8px;">Submit</button>
+            </li>
+        </ul>
+    </form>
+</body>
+
+</html>
