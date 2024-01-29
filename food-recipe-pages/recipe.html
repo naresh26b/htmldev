@@ -1,0 +1,177 @@
+<!<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>food-recipe</title>
+        <meta name="description" content>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href>
+        <!-- why without div display-block not having any impact ? -->
+        <style>
+        
+        div {
+                display: blcok;
+            }
+            
+            h2 {
+                color: #d7932d;
+            }
+
+            h3 {
+                color: #d53f99;
+            }
+            
+            body{
+                color:  #666666;
+                font-size: 18px;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            
+            th,
+            td {
+                font-size: 0.9em;
+                border: 1px solid;
+                text-align: left;
+                padding-top: 20px;
+            }
+
+            tr:nth-child(even) {
+                background-color: #dfdfdf;
+            }
+
+            tr:nth-child(odd) {
+                background-color: #c5c5c5;
+            }
+            .container {
+                width: 30%;
+                padding: 10px 15px 10px 15px;
+                background-color: #f1e8e8;
+                margin-left: 20%;
+            }
+
+            .content-box {
+                background-color: #ffffff;
+            }
+
+            .preparation-box {
+                background-color: #f1e8e8;
+                margin: 10px
+            }
+
+            .image {
+                width: 100%;
+                border-radius: 19px;
+            }
+
+            .image-container {
+                padding: 10px;
+            }
+
+            .table-container {
+                margin: 2em;
+                overflow-x: auto;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="content-box">
+                <div class="image-container">
+                    <img src="images/burger.jpg" class="image" />
+                </div>
+                <div>
+                    <h1>Simple Omelette Recipe</h1>
+                    <p>An easy and quick dish, perfect for any meal. This
+                        classic
+                        omelette combines beaten eggs cooked to
+                        perfection, optionally filled with your choice of
+                        cheese,
+                        vegetables, or meats.</p>
+
+                </div>
+                <div class="preparation-box">
+                    <h3>Preparation time</h3>
+                    <ol>
+                        <li>
+                            Total: Approximately 10 minutes
+                        </li>
+                        <li>
+                            Preparation: 5 minutes
+                        </li>
+                        <li>
+                            Cooking: 5 minutes
+                        </li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Ingredients</h2>
+
+                    <li>
+                        2-3 large eggs
+                    </li>
+                    <li>
+                        Salt, to taste
+
+                    </li>
+                    <li>Pepper, to taste</li>
+                    <li>
+                        1 tablespoon of butter or oil</li>
+                    <li>Optional fillings: cheese, diced vegetables, cooked
+                        meats,
+                        herbs</li>
+
+                </div>
+                <div>
+                    <h2>Instructions</h2>
+                    <ol>
+                        <li>Beat the eggs in a bowl...</li>
+                        <li>Heat the pan over medium heat...</li>
+                        <li>Cook the omelette until golden brown...</li>
+                        <li>Add fillings (optional) and fold the
+                            omelette...</li>
+                        <li>Remove from heat and serve immediately...</li>
+                        <li>Enjoy with additional salt and pepper to
+                            taste...</li>
+                    </ol>
+                </div>
+                <div>
+                    <h2>Nutrition</h2>
+                    <p>The table below shows how much of each nutrient is in
+                        this recipe.</p>
+                    <div class="table-container">
+                        <!--can't we do with single dev for table-->
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td><strong>Calories</strong></td>
+                                    <td>277kcal</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Carbs</strong></td>
+                                    <td>0g</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Protein</strong></td>
+                                    <td>20g</td>
+                                </tr>
+                                <tr>
+                                    <td><strong>Fat</strong></td>
+                                    <td>Fat</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
