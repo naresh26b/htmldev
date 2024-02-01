@@ -1,5 +1,5 @@
 <!<!DOCTYPE html>
-<html>
+    <html>
 
     <head>
         <meta charset="utf-8">
@@ -9,11 +9,11 @@
         <link rel="stylesheet" href>
         <!-- why without div display-block not having any impact ? -->
         <style>
-        
-        div {
+
+            div {
                 display: blcok;
             }
-            
+
             h2 {
                 color: #d7932d;
             }
@@ -21,11 +21,11 @@
             h3 {
                 color: #d53f99;
             }
-            
-            body{
-                color:  #666666;
+
+            body {
+                color: #666666;
                 font-size: 18px;
-                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
             }
 
@@ -33,7 +33,7 @@
                 border-collapse: collapse;
                 width: 100%;
             }
-            
+
             th,
             td {
                 font-size: 0.9em;
@@ -49,6 +49,7 @@
             tr:nth-child(odd) {
                 background-color: #c5c5c5;
             }
+
             .container {
                 width: 30%;
                 padding: 10px 15px 10px 15px;
@@ -77,6 +78,13 @@
             .table-container {
                 margin: 2em;
                 overflow-x: auto;
+            }
+             /* Media query for screens with a maximum width of 600px */
+             @media (max-width: 768px) {
+                .container {
+                    width: 100%;
+                    margin-left: 0%;
+                }
             }
         </style>
     </head>
@@ -174,4 +182,4 @@
         </div>
     </body>
 
-</html>
+    </html>
